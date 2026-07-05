@@ -1,9 +1,11 @@
 name: Build
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
       - dev
+      - 26.1-fix
 
 jobs:
   build:
